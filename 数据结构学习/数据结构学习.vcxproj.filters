@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\dp">
+      <UniqueIdentifier>{a716629a-b63a-416c-b324-93e71bcae760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\sort">
+      <UniqueIdentifier>{50d66b5d-8841-4968-b7e8-d0b286d23b7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\sort\nodelist">
+      <UniqueIdentifier>{1872af86-f756-40f1-9515-1b32d83598f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\greedy">
+      <UniqueIdentifier>{71d2c956-d4ab-4a62-be98-22360851e40d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\backtrack">
+      <UniqueIdentifier>{9d568296-8ce0-4bc2-80f7-a3b82148af79}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dp\dp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="greedy\greedySelector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="greedy\huffmanTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="backtrack\backtrack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="nodelist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dp\0-1bag.h">
+      <Filter>头文件\dp</Filter>
+    </ClInclude>
+    <ClInclude Include="dp\lcs.h">
+      <Filter>头文件\dp</Filter>
+    </ClInclude>
+    <ClInclude Include="dp\matrix.hpp">
+      <Filter>头文件\dp</Filter>
+    </ClInclude>
+    <ClInclude Include="dp\maxSubSeq.h">
+      <Filter>头文件\dp</Filter>
+    </ClInclude>
+    <ClInclude Include="greedy\paymoney.h">
+      <Filter>头文件\greedy</Filter>
+    </ClInclude>
+    <ClInclude Include="greedy\huffman.h">
+      <Filter>头文件\greedy</Filter>
+    </ClInclude>
+    <ClInclude Include="sort\Comparator.h">
+      <Filter>头文件\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="sort\heapSort.h">
+      <Filter>头文件\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="sort\mergeSort.h">
+      <Filter>头文件\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="sort\quickSort.h">
+      <Filter>头文件\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="sort\RandomSelect.h">
+      <Filter>头文件\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="backtrack\coloring.h">
+      <Filter>头文件\backtrack</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
