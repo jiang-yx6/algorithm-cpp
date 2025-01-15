@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="backtrack\backtrack.cpp" />
+    <ClCompile Include="bitree\bitree.cpp" />
     <ClCompile Include="dp\dp.cpp" />
     <ClCompile Include="greedy\greedySelector.cpp" />
     <ClCompile Include="greedy\huffmanTree.cpp" />

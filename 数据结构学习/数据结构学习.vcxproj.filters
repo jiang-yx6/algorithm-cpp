@@ -45,11 +45,11 @@
     <ClCompile Include="backtrack\backtrack.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="bitree\bitree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="nodelist.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="dp\0-1bag.h">
       <Filter>头文件\dp</Filter>
     </ClInclude>
@@ -85,6 +85,9 @@
     </ClInclude>
     <ClInclude Include="backtrack\coloring.h">
       <Filter>头文件\backtrack</Filter>
+    </ClInclude>
+    <ClInclude Include="nodelist.h">
+      <Filter>源文件</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

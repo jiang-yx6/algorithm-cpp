@@ -59,6 +59,7 @@ void backpack(int* value, int* weight, int c, int n,int **dp, bool**include) {
 	}
 	cout << "Maximum value in Knapsack: " << dp[n - 1][c] << endl;
 }
+
 void LCSLength(int m, int n, char* x, char* y, int** c, int** b)
 {
 	for (int i = 0; i <= m; i++)c[i][0] = 0;
